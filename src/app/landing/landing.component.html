@@ -1,0 +1,20 @@
+<div>
+    <div style="margin-left: 10%; margin-right: 10%; margin-top: 20px;">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>รหัสสินค้า</th>
+                    <th>ชื่อสินค้า</th>
+                    <th>ราคา</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let product of productList">
+                    <td>{{product['productId']}}</td>
+                    <td>{{product['name']}}</td>
+                    <td>{{product['price']}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

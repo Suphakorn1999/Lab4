@@ -1,0 +1,13 @@
+<div>
+    <div style="margin-left: 20%; margin-right: 20%; margin-top: 20px;">
+        <div style="text-align: center;margin-bottom: 5%;">เข้าสู่ระบบ</div>
+        <input [(ngModel)]="userName"  class="form-control"  type="text" />
+        <input [(ngModel)]="passWord"  class="form-control"  type="password" style="margin-top: 20px;"/>
+        <div style="text-align: center; margin-top: 20px;">
+            <button (click)="onClick()" class="btn btn-primary">Login</button>
+        </div>
+        <div style="margin-top: 20px;">
+            <a href="/register">ลงทะเบียน</a>
+        </div>
+    </div>
+</div>
